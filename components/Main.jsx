@@ -6,10 +6,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { MdOutlineEmojiPeople } from "react-icons/md";
 import Image from "next/image";
 import MainLogo from "../public/assets/main title.png";
-import Headshot from "../public/assets/headshot hoodie.png";
-import { HiOutlineChevronDoubleDown } from 'react-icons/hi';
-
-
+import { HiOutlineChevronDoubleDown } from "react-icons/hi";
 
 const Main = () => {
   return (
@@ -20,10 +17,17 @@ const Main = () => {
             hello! my name is
           </p> */}
 
-          <h2 className="py-2 text-gray-700">My name is <span className="animate-pulse hover:scale-105 ease-in duration-300"><Image src={MainLogo} className="mx-auto" alt="/" /></span> and I'm a Software Developer.</h2>
+          <h2 className="py-2 text-gray-700">
+            My name is{" "}
+            <span className="animate-pulse hover:scale-105 ease-in duration-300">
+              <Image src={MainLogo} className="mx-auto" alt="/" />
+            </span>{" "}
+            and I'm a Software Developer.
+          </h2>
 
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I work with creative people to make responsive web applications. Let's collaborate!
+            I work with creative people to make responsive web applications.
+            Let's collaborate!
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-0">
             <a
@@ -54,28 +58,20 @@ const Main = () => {
                 <BsFillPersonLinesFill />
               </div>
             </Link>
-            
-                </div>
-            <div className='flex justify-center py-12'>
-          <Link href='/#about'>
-              <div className='  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+          </div>
+          <div className="flex justify-center py-12">
+            <Link href="/#about">
+              <div className="  p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                 <HiOutlineChevronDoubleDown
-                  className='text-[#5651e5]'
+                  className="text-[#5651e5]"
                   size={30}
                 />
               </div>
-          </Link>
-        </div>
-
-
-  
-
-
-          
+            </Link>
+          </div>
         </div>
       </div>
     </div>
-    
   );
 };
 
