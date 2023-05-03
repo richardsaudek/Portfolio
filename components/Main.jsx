@@ -13,10 +13,6 @@ const Main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          {/* <p className="uppercase text-sm tracking-widest text-[#7e71fd]">
-            hello! my name is
-          </p> */}
-
           <h2 className="py-2 text-gray-700">
             My name is{" "}
             <span className="animate-pulse hover:scale-105 ease-in duration-300">
@@ -35,8 +31,9 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaLinkedinIn />
+              <div class="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-white relative">
+                <span><FaLinkedinIn /></span>
+                <span class="opacity-0 absolute top-full left-1/2 transform -translate-x-1/2 mt-2 py-2 px-4 rounded-lg text-sm bg-gray-900 text-white transition-opacity duration-300">LinkedIn Profile</span>
               </div>
             </a>
             <a
@@ -53,10 +50,11 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href="/resume">
+            <Link href="https://docs.google.com/document/d/1hj4093sNIe6anS10MmHYVCpxvGzd_pNEOsJ6uKKJw-0/edit?usp=sharing">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonLinesFill />
               </div>
+              
             </Link>
           </div>
           <div className="flex justify-center py-12">
@@ -69,9 +67,9 @@ const Main = () => {
               </div>
             </Link>
           </div>
-        </div>
       </div>
-    </div>
+      </div>
+      </div>
   );
 };
 

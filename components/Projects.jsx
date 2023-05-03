@@ -21,20 +21,20 @@ const Projects = () => {
             title='ASL'
             backgroundImg={aslImg}
             projectUrl='https://asl-front-git-dev-donkeykong718.vercel.app/'
-            tech='Next.js, React, Django, Python, PostgreSQL'
+            tech=' A clone of AOL chat rooms, perfectly recreating retro sounds and styles from 1998. Next.js, React, Django, Python, PostgreSQL.'
           />
           <ProjectItem
             title='Book It'
             backgroundImg={bookitImg}
             projectUrl='https://booked-it.vercel.app/'
-            tech='JavaScript, JSON API, Express, Mongoose'
+            tech='An app to assist professional Performing Artists navigate the busy process of auditioning. JavaScript, JSON API, Express, Mongoose'
 
           />
           <ProjectItem
             title='Peruz Revuz'
             backgroundImg={peruzImg}
             projectUrl='https://peruz-revuz.vercel.app/'
-            tech='JavaScript, CSS, JSON API'
+            tech='An app that allows you to search by book title to find the NYTimes reviews. JavaScript, CSS, JSON API'
 
           />
         </div>

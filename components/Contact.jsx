@@ -43,8 +43,9 @@ const Contact = () => {
                     rel='noreferrer'
                   >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <FaLinkedinIn />
+                      <FaLinkedinIn />  
                     </div>
+                    <p>LinkedIn</p>
                   </a>
                   <a
                     href='https://github.com/richardsaudek'
@@ -54,16 +55,19 @@ const Contact = () => {
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaGithub />
                     </div>
+                    <p>Git Hub</p>
                   </a>
 
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
-                  <Link href='/resume'>
+                  <p>Email</p>
+                  <Link href='https://docs.google.com/document/d/1hj4093sNIe6anS10MmHYVCpxvGzd_pNEOsJ6uKKJw-0/edit?usp=sharing'>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
                       </div>
                   </Link>
+                <p>Resume</p>
                 </div>
               </div>
             </div>
