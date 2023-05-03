@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import Link from "next/link";
 import Html  from '../public/assets/skills/html.png';
 import Css from '../public/assets/skills/css.png';
 import Javascript from '../public/assets/skills/javascript.png';
@@ -8,7 +9,7 @@ import Tailwind from '../public/assets/skills/tailwind.png';
 import Github from '../public/assets/skills/github1.png';
 import WordPress from '../public/assets/skills/wordpress.png';
 import NextJS from '../public/assets/skills/nextjs.png'
-// import AWS from '../public/assets/skills/aws.png';
+import { HiOutlineChevronDoubleDown } from 'react-icons/hi';
 
 const Skills = () => {
   return (
@@ -100,7 +101,19 @@ const Skills = () => {
             </div>
           </div>
         </div>
+        <div className='flex justify-center py-12'>
+          <Link href='/#projects'>
+              <div className='  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <HiOutlineChevronDoubleDown
+                  className='text-[#5651e5]'
+                  size={30}
+                />
+              </div>
+          </Link>
+        </div>
+
       </div>
+      
     </div>
   );
 };

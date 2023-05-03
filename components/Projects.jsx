@@ -4,8 +4,9 @@ import React from 'react';
 import aslImg from '../public/assets/projects/ASL Project Image.jpg';
 import bookitImg from '../public/assets/projects/BookiT Image.jpg'
 import peruzImg from '../public/assets/projects/Peruz Revuz Image.png'
-// import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
+import { HiOutlineChevronDoubleDown } from 'react-icons/hi';
+
 
 const Projects = () => {
   return (
@@ -37,6 +38,17 @@ const Projects = () => {
 
           />
         </div>
+        <div className='flex justify-center py-12'>
+          <Link href='/#contact'>
+              <div className='  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <HiOutlineChevronDoubleDown
+                  className='text-[#5651e5]'
+                  size={30}
+                />
+              </div>
+          </Link>
+        </div>
+
       </div>
     </div>
   );

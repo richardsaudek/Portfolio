@@ -2,6 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import AboutImg from '../public/assets/about.jpeg';
+import { HiOutlineChevronDoubleDown } from 'react-icons/hi';
+
 
 const About = () => {
   return (
@@ -29,8 +31,20 @@ const About = () => {
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <Image src={AboutImg} className='rounded-xl' alt='/' />
         </div>
+        <div className='flex justify-center py-12'>
+          <Link href='/#skills'>
+              <div className='  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <HiOutlineChevronDoubleDown
+                  className='text-[#5651e5]'
+                  size={30}
+                />
+              </div>
+          </Link>
+        </div>
+
       </div>
     </div>
+    
   );
 };
 
