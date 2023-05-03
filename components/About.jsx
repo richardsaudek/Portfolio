@@ -31,6 +31,7 @@ const About = () => {
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <Image src={AboutImg} className='rounded-xl' alt='/' />
         </div>
+                <a href="https://drive.google.com/file/d/1XBz5opOB53nL23Tqa8lFV5nb6ibgrE8H/view?usp=share_link" download>Download my resume</a>
         <div className='flex justify-center py-12'>
           <Link href='/#skills'>
               <div className='  p-4 cursor-pointer hover:scale-110 ease-in duration-300'>

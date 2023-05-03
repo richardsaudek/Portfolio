@@ -23,6 +23,7 @@ const Projects = () => {
             projectUrl='https://asl-front-git-dev-donkeykong718.vercel.app/'
             tech=' A clone of AOL chat rooms, perfectly recreating retro sounds and styles from 1998. Next.js, React, Django, Python, PostgreSQL.'
           />
+
           <ProjectItem
             title='Book It'
             backgroundImg={bookitImg}
