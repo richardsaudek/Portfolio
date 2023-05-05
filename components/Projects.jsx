@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import aslImg from '../public/assets/projects/ASL Project Image.jpg';
-import bookitImg from '../public/assets/projects/BookiT Image.png'
-import peruzImg from '../public/assets/projects/Peruz Revuz Image.png'
-import frankenImg from '../public/assets/projects/FrankenStory Image.png'
-import moochachaImg from '../public/assets/projects/MooChaCha Image.png'
+import aslImg from '../public/assets/projects/ASL-Project-Image.jpg';
+import bookitImg from '../public/assets/projects/BookiT-Image.png'
+import peruzImg from '../public/assets/projects/PeruzRevuz-Image.png'
+import frankenImg from '../public/assets/projects/FrankenStory-Image.png'
+import moochachaImg from '../public/assets/projects/MooChaCha-Image.png'
 import ProjectItem from './ProjectItem';
 import { HiOutlineChevronDoubleDown } from 'react-icons/hi';
 import Html  from '../public/assets/skills/html.png';
