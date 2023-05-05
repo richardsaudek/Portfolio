@@ -6,6 +6,9 @@ module.exports = {
 ],
   theme: {
     extend: {},
+    fontFamily: {
+      neueMontreal: ['neue-montreal', 'sans-serif']
+    },
   },
   plugins: [],
 }

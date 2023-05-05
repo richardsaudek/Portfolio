@@ -5,15 +5,16 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { MdOutlineEmojiPeople } from "react-icons/md";
 import Image from "next/image";
-import MainLogo from "../public/assets/main title.png";
+import MainLogo from "../public/assets/main-title.png";
 import { HiOutlineChevronDoubleDown } from "react-icons/hi";
 
 const Main = () => {
   return (
+    
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <h2 className="py-2 text-gray-700">
+          <h2 className="py-2 text-[#39339f]">
             My name is{" "}
             <span className="animate-pulse hover:scale-105 ease-in duration-300">
               <Image src={MainLogo} className="mx-auto" alt="/" />
@@ -69,7 +70,8 @@ const Main = () => {
           </div>
       </div>
       </div>
-      </div>
+    </div>
+    
   );
 };
 

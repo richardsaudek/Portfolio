@@ -38,18 +38,18 @@ const Navbar = () => {
           : 'fixed w-full h-20 z-[100]'
       }
     >
-      <div className='flex justify-between items-center w-full h-full px-2 pt-20 2xl:px-16'>
+      <div className='flex justify-between items-center w-full h-full px-8 pt-2 2xl:px-16'>
         <Link href='/'>
             <Image
               src={NavLogo}
               alt='/'
               // width='125'
-              height='200'
-            className='cursor-pointer'
+              height='100'
+            className='cursor-pointer pt-4'
             />
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
+          <ul style={{ color: `${linkColor}` }} className='font-neue-montreal hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/'>Home</Link>
             </li>
