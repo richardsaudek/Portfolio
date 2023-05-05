@@ -10,7 +10,7 @@ import { HiOutlineChevronDoubleDown } from "react-icons/hi";
 
 const Main = () => {
   return (
-    
+      
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
@@ -32,9 +32,10 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div class="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-white relative">
-                <span><FaLinkedinIn /></span>
-                <span class="opacity-0 absolute top-full left-1/2 transform -translate-x-1/2 mt-2 py-2 px-4 rounded-lg text-sm bg-gray-900 text-white transition-opacity duration-300">LinkedIn Profile</span>
+             <div className='flex flex-col items-center rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 w-20'>
+                <FaLinkedinIn className="text-[#5651e5]" />
+                <p className= 'mt-2 text-[#5651e5]'>LinkedIn</p>
+
               </div>
             </a>
             <a
@@ -42,21 +43,25 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaGithub />
+             <div className='flex flex-col items-center rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 w-20'>
+                <FaGithub className="text-[#5651e5]"/>
+                <p className= 'mt-2 text-[#5651e5]'>GitHub</p>
+
               </div>
             </a>
             <Link href="/#contact">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <AiOutlineMail />
+             <div className='flex flex-col items-center rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 w-20'>
+                <AiOutlineMail className="text-[#5651e5]"/>
+                <p className="mt-2 text-[#39339f]">Email</p>
+
               </div>
             </Link>
-            <Link href="https://docs.google.com/document/d/1hj4093sNIe6anS10MmHYVCpxvGzd_pNEOsJ6uKKJw-0/edit?usp=sharing">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <BsFillPersonLinesFill />
-              </div>
-              
-            </Link>
+            <Link href='https://docs.google.com/document/d/1hj4093sNIe6anS10MmHYVCpxvGzd_pNEOsJ6uKKJw-0/edit?usp=sharing'>
+    <div className='flex flex-col items-center rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 w-20'>
+      <BsFillPersonLinesFill className="text-[#5651e5]"/>
+      <p className="mt-2 text-[#39339f]">Resume</p>
+    </div>
+  </Link>
           </div>
           <div className="flex justify-center py-12">
             <Link href="/#about">

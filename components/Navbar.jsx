@@ -49,23 +49,26 @@ const Navbar = () => {
             />
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className='font-neue-montreal hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+          <ul style={{ color: `${linkColor}`, fontFamily: "Neue Montreal, sans-serif" }} className='font-neue-montreal hidden md:flex'>
+  
+            
+
+            <li className='ml-10 text-sm uppercase hover:text-[#5651e5] hover:underline g '>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:text-[#5651e5] hover:underline '>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:text-[#5651e5] hover:underline '>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:text-[#5651e5] hover:underline '>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:text-[#5651e5] hover:underline '>
               <Link href='https://drive.google.com/file/d/1XBz5opOB53nL23Tqa8lFV5nb6ibgrE8H/view?usp=share_link'>Resume</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:text-[#5651e5] hover:underline '>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
@@ -153,7 +156,7 @@ const Navbar = () => {
             </ul>
             <div className='pt-40'>
               <p className='uppercase tracking-widest text-[#5651e5]'>
-                Let&#39;s Colaborate
+                Let&#39;s Collaborate
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a

@@ -35,62 +35,40 @@ const Contact = () => {
                 </p>
               </div>
               <div>
-                <p className='uppercase pt-8'>Connect With Me</p>
-                <div className='flex items-center justify-between py-4'>
-                  <a
-                    href='https://www.linkedin.com/in/richard-saudek/'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <FaLinkedinIn />  
-                    <p>LinkedIn</p>
-                    </div>
-                  </a>
-                  <a
-                    href='https://github.com/richardsaudek'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <FaGithub />
-                    <p>Git Hub</p>
-                    </div>
-                  </a>
+              <p className='uppercase pt-8'>Connect With Me</p>
+<div className='flex flex-wrap items-center justify-between py-4'>
+  <a
+    href='https://www.linkedin.com/in/richard-saudek/'
+    target='_blank'
+    rel='noreferrer'
+  >
+   <div className='flex flex-col items-center rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 w-20'>
+  <FaLinkedinIn className="text-[#5651e5]"/>  
+  <p className='mt-2'>LinkedIn</p>
+</div>
 
-                  <a
-                    href='https://github.com/richardsaudek'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <FaGithub />
-                    <p>Git Hub</p>
-                    </div>
-                  </a>
-
-
-
-
-
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
-                  <p>Email</p>
-                  </div>
-
-                  
-                  
-
-                  
-
-                  <Link href='https://docs.google.com/document/d/1hj4093sNIe6anS10MmHYVCpxvGzd_pNEOsJ6uKKJw-0/edit?usp=sharing'>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
-                      </div>
-                <p>Resume</p>
-                  </Link>
-                </div>
-
+  </a>
+  <a
+  href='https://github.com/richardsaudek'
+  target='_blank'
+  rel='noreferrer'
+>
+  <div className='flex flex-col items-center rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+    <FaGithub className="text-[#5651e5]" />
+    <p className="mt-2">GitHub</p>
+  </div>
+</a>
+  <div className='flex flex-col items-center rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 w-20'>
+    <AiOutlineMail className="text-[#5651e5]" />
+    <p className="mt-2">Email</p>
+  </div>
+  <Link href='https://docs.google.com/document/d/1hj4093sNIe6anS10MmHYVCpxvGzd_pNEOsJ6uKKJw-0/edit?usp=sharing'>
+    <div className='flex flex-col items-center rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 w-20'>
+      <BsFillPersonLinesFill className="text-[#5651e5]" />
+      <p className="mt-2">Resume</p>
+    </div>
+  </Link>
+</div>
 
 
               </div>

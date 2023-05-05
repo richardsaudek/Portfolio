@@ -22,7 +22,7 @@ const Projects = () => {
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
-        <div className='grid md:grid-cols-2 gap-8'>
+        <div className='grid md:grid-cols-3 gap-8'>
           <div>
 
           <ProjectItem
@@ -66,6 +66,17 @@ const Projects = () => {
           <div>
             
             <ProjectItem
+              title='MooChaCha'
+              backgroundImg={moochachaImg}
+              projectUrl='https://moo-cha-cha.vercel.app/'
+              tech='JavaScript, CSS, Figma, Notion'
+              githubUrl='https://github.com/donkeykong718/frankenstory'
+  
+            />
+                <p className='p-8 text-justify tracking-widest  '>A collaboration with a UX Design team to build their vision of a fictionalized ice cream shop using React and design specifications via Figma.</p>
+            </div>
+            <div>
+            <ProjectItem
               title='FrankenStory'
               backgroundImg={frankenImg}
               projectUrl=''
@@ -76,18 +87,7 @@ const Projects = () => {
                 <p className='p-8 text-justify tracking-widest  '>An app that allows you to search by book title to find the NYTimes reviews.</p>
           </div>
           
-          <div>
             
-            <ProjectItem
-              title='MooChaCha'
-              backgroundImg={moochachaImg}
-              projectUrl='https://moo-cha-cha.vercel.app/'
-              tech='JavaScript, CSS, JSON API'
-              githubUrl='https://github.com/donkeykong718/frankenstory'
-  
-            />
-                <p className='p-8 text-justify tracking-widest  '>An app that allows you to search by book title to find the NYTimes reviews.</p>
-            </div>
   
 
         </div>
