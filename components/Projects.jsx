@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import aslImg from '../public/assets/projects/ASL-Project-Image.jpg';
-import bookitImg from '../public/assets/projects/BookiT-Image.png'
+import bookitImg from '../public/assets/projects/mobile (2).png'
 import peruzImg from '../public/assets/projects/PeruzRevuz-Image.png'
 import frankenImg from '../public/assets/projects/FrankenStory-Image.png'
 import moochachaImg from '../public/assets/projects/MooChaCha-Image.png'
@@ -43,9 +43,9 @@ const Projects = () => {
           <ProjectItem
             title='Book It'
             backgroundImg={bookitImg}
-            projectUrl='https://booked-it.vercel.app/'
+            projectUrl='https://booked-it-frontend.vercel.app/'
             tech='JavaScript, JSON API, Express, Mongoose'
-            githubUrl='https://github.com/richardsaudek/Booked.it'
+            githubUrl='https://github.com/richardsaudek/booked-it-frontend'
 
           />
               <p className='p-8 text-justify tracking-widest  '>An app to assist professional Performing Artists navigate the busy process of auditioning.</p>
@@ -70,7 +70,7 @@ const Projects = () => {
               backgroundImg={moochachaImg}
               projectUrl='https://moo-cha-cha.vercel.app/'
               tech='JavaScript, CSS, Figma, Notion'
-              githubUrl='https://github.com/donkeykong718/frankenstory'
+              githubUrl='https://github.com/richardsaudek/MooChaCha'
   
             />
                 <p className='p-8 text-justify tracking-widest  '>A collaboration with a UX Design team to build their vision of a fictionalized ice cream shop using React and design specifications via Figma.</p>

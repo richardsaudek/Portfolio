@@ -26,7 +26,7 @@ const Main = () => {
             I work with creative people to make responsive web applications.
             Let's collaborate!
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-0">
+          <div className="flex items-center justify-between max-w-[425px] m-auto py-0 pt-6">
             <a
               href="https://www.linkedin.com/in/richard-saudek/"
               target="_blank"
