@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import aslImg from '../public/assets/projects/ASL-Project-Image.jpg';
-import bookitImg from '../public/assets/projects/mobile (2).png'
+import bookitImg from '../public/assets/projects/mobile-book-it.png'
 import peruzImg from '../public/assets/projects/PeruzRevuz-Image.png'
 import frankenImg from '../public/assets/projects/FrankenStory-Image.png'
 import moochachaImg from '../public/assets/projects/MooChaCha-Image.png'
